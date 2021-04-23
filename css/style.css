@@ -10,5 +10,34 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: 0 auto;
 }
+
+
+/* header */
+
+#logo{
+    height: 80px;
+    background-color: red;    
+}
+
+nav{
+    height: 80px;
+    background-color: seagreen;
+}
+
+.jumbotron{
+    height: 500px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
 
