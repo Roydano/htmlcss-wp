@@ -49,8 +49,14 @@ a{
 
 
 .jumbotron{
+    border-radius: 10px;
     height: 500px;
-    background-color: blue;
+    background-image: url(../img/banner.jpg);
+    
+   
+    
+
+    
 }
 
 
@@ -59,14 +65,16 @@ a{
 
 /* debug */
 
-.header-top, .debug{
+/* .header-top, .debug{
     background-color: red;
 }
 
 nav.debug{
     background-color: seagreen;
 
-}
+} */
+
+
 
 
 
