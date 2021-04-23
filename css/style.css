@@ -9,9 +9,14 @@
 /* common */
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 80%;
     margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
 }
 
 
@@ -27,14 +32,21 @@ body{
 }
 
 
-
-
-
-
 nav{
     height: 80px;
-    background-color: seagreen;
+    line-height: 80px;
+    
 }
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9b9b9b;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+
 
 .jumbotron{
     height: 500px;
@@ -49,6 +61,11 @@ nav{
 
 .header-top, .debug{
     background-color: red;
+}
+
+nav.debug{
+    background-color: seagreen;
+
 }
 
 
