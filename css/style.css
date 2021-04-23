@@ -18,24 +18,26 @@ body{
 li{
     display: inline-block;
     list-style: none;
+    
+}
+
+.color-text{
+    color: #9b9b9b;
+
 }
 
 
 /* header */
 
-.header-top{
-    height: 80px;
-       
-}
 
 #logo{
-    height: 80px;
+    height: 70px;
 }
 
 
 nav{
-    height: 80px;
-    line-height: 80px;
+    height: 90px;
+    line-height: 90px;
     
 }
 
@@ -59,7 +61,7 @@ a{
 }
 
 .bg-grey{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     height: 100%;
 }
@@ -71,22 +73,20 @@ a{
 }
 
 
+/* main */
 
+/* main-top */
 
-
-
-
-
-/* debug */
-
-/* .header-top, .debug{
-    background-color: red;
+.leadership{
+    padding: 20px 0;
 }
 
-nav.debug{
-    background-color: seagreen;
+.leadership h2{
+    font-size: 35px;
+}
 
-} */
+
+/* main-columns */
 
 
 
