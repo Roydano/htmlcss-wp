@@ -47,9 +47,6 @@ a{
     font-weight: 500;
 }
 
-
-
-
 .jumbotron{
     
     border-radius: 10px;
@@ -57,10 +54,20 @@ a{
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    filter: brightness(0.72);
-   
-    
+         
         
+}
+
+.bg-grey{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.jumbotron-text{
+    padding: 310px 44% 50px 50px;
+    color: white;
+  
 }
 
 
