@@ -100,6 +100,13 @@ aside{
    
 }
 
+.column-center{
+    width: 60%;
+    float: left;
+    margin: 0 2%;
+}
+
+
 .img-sx{
     background-image: url(../img/img-1.jpg);
     background-size: cover;
@@ -107,14 +114,10 @@ aside{
     height: 200px;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 
-.column-center{
-    width: 60%;
-    float: left;
-    margin: 0 2%;
-}
 
 .img-center{
     background-image: url(../img/banner-2.jpg);
@@ -123,6 +126,7 @@ aside{
     height: 200px;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 15px;
     
 }
 
@@ -133,7 +137,19 @@ aside{
     height: 200px;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 15px;
     
+}
+
+
+/* testo colonne */
+
+.colonne p{
+    margin-top: 10px;
+}
+
+h4{
+    font-weight: 300;
 }
 
 
