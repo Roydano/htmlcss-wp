@@ -78,7 +78,7 @@ a{
 /* main-top */
 
 .leadership{
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .leadership h2{
@@ -87,6 +87,55 @@ a{
 
 
 /* main-columns */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+aside{
+    width: 18%;
+    float: left;
+   
+}
+
+.img-sx{
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.column-center{
+    width: 60%;
+    float: left;
+    margin: 0 2%;
+}
+
+.img-center{
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.img-dx{
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
 
 
 
