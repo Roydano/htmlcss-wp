@@ -12,6 +12,7 @@ body{
     font-family: 'Raleway', sans-serif;
     width: 80%;
     margin: 0 auto;
+    
 }
 
 li{
@@ -48,16 +49,22 @@ a{
 
 
 
+
 .jumbotron{
+    
     border-radius: 10px;
     height: 500px;
     background-image: url(../img/banner.jpg);
-    
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.72);
    
     
-
-    
+        
 }
+
+
+
 
 
 
