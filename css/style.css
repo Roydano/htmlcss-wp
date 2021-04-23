@@ -17,10 +17,19 @@ body{
 
 /* header */
 
+.header-top{
+    height: 80px;
+       
+}
+
 #logo{
     height: 80px;
-    background-color: red;    
 }
+
+
+
+
+
 
 nav{
     height: 80px;
@@ -34,6 +43,13 @@ nav{
 
 
 
+
+
+/* debug */
+
+.header-top, .debug{
+    background-color: red;
+}
 
 
 
