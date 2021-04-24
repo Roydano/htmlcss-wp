@@ -158,12 +158,14 @@ div>.btm{
     background-image: url(../../img/img-1.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
 }
 
 .img-sx-bottom{
     background-image: url(../../img/img-4.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
 }
 
 
@@ -172,21 +174,47 @@ div>.btm{
 /* colonna centrale */
 
 .colonna-centro{
-    height: 800px;
-    background-color: black;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 25px);
     float: left;
     margin: 0 25px;
+    
 }
+
+.img-ctr-top{
+    background-image: url(../../img/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.img-ctr-bottom{
+    background-image: url(../../img/img-5.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
 
 
 /* colonna destra */
 
 .colonna-dx{
-    height: 800px;
-    background-color: purple;
     width: calc(100% / 3 - 25px);
     float: left;
+}
+
+.img-dx-top{
+    background-image: url(../../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.img-dx-bottom{
+    background-image: url(../../img/img-6.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
 }
 
 
