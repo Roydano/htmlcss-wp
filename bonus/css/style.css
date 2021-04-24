@@ -21,6 +21,9 @@ li{
     display: inline-block;
 }
 
+.c-txt{
+    color: #838383;
+}
 
 
 /* header */
@@ -85,10 +88,18 @@ p{
 /* section */
 
 section{
-    height: 100px;
-    background-color: blue;
+   margin-top: 25px;
+   margin-bottom: 10px;
+
 }
 
+h2 {
+    font-size: 35px;
+}
+
+
+
+/* colonne */
 
 .colonne{
     height: 800px;
