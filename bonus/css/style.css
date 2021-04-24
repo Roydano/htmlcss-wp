@@ -5,3 +5,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+body{
+    padding: 20px;
+}
+
+
+
+
+/* header */
+
+.header-top{
+    height: 80px;
+    background-color: tomato;
+    
+}
+
+nav{
+    height: 80px;
+    background-color: sandybrown;
+}
+
+.jumbotron{
+    height: 400px;
+    background-color: springgreen;
+}
+
+
+/* main */
+
+
+/* section */
+
+section{
+    height: 100px;
+    background-color: blue;
+}
+
+
+.colonne{
+    height: 800px;
+    background-color: yellow;
+    
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.colonna-sx{
+    height: 800px;
+    background-color: grey;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.colonna-centro{
+    height: 800px;
+    background-color: black;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.colonna-dx{
+    height: 800px;
+    background-color: purple;
+    width: calc(100% / 3);
+    float: left;
+}
+
+
+
+
