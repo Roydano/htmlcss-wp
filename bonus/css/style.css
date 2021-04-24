@@ -14,7 +14,7 @@ body{
 }
 
 .padding{
-    padding: 15px;
+    padding: 15px 20px 15px 20px;
 }
 
 li{
@@ -26,19 +26,19 @@ li{
 /* header */
 
 .header-top{
-    height: 80px;
-    background-color: tomato;
+    height: 90px;
+    
     
 }
 
 #logo{
-    height: 80px;
+    height: 100%;
     
 }
 
 nav{
     height: 80px;
-    background-color: sandybrown;
+    
 }
 
 a{
@@ -50,9 +50,33 @@ a{
 }
 
 .jumbotron{
-    height: 400px;
+    height: 500px;
+    background-image: url(../../img/2742190.jpg);
     background-color: springgreen;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
 }
+
+.layover{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+.jumbo-text{
+    color: white;
+    padding: 310px 58% 30px 50px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+
+
 
 
 /* main */
