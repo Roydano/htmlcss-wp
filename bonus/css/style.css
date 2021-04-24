@@ -143,6 +143,9 @@ span strong{
     color: black;
 }
 
+div>.btm{
+    margin-bottom: 40px;
+}
 
 /* colonna sinistra */
 
@@ -157,7 +160,11 @@ span strong{
     background-position: center;
 }
 
-
+.img-sx-bottom{
+    background-image: url(../../img/img-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
